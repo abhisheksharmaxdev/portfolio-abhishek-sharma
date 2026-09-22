@@ -26,7 +26,7 @@ export const profile = {
   strengths: ['Problem-Solving', 'Analytical Thinking', 'Team Collaboration', 'Communication'],
 
   resume: {
-    url: 'https://drive.google.com/file/d/1-X18zDaxA9PAv1Mv-U9y1fdWL0yFmlcc/view?usp=drive_link',
+    url: 'https://drive.google.com/drive/folders/1UOqVZbV2QWIsfAIrxPtAG8QXKNjb_p10?usp=drive_link',
   },
 
   socials: {
