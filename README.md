@@ -4,6 +4,8 @@ Personal portfolio of **Abhishek Sharma**, B.Tech Computer Science (Big Data Ana
 
 The site presents my projects, internship experience, skills and certifications, with an interactive 3D hero and case studies for each project.
 
+**🔗 Live site: [portfolio-abhishek-sharma.vercel.app](https://portfolio-abhishek-sharma.vercel.app/)**
+
 ## Highlights
 
 - **Interactive 3D hero:** a WebGL particle field that morphs between a data sphere, a neural network and a loss landscape, and reacts to the cursor.
@@ -84,9 +86,11 @@ For local development, copy `.env.example` to `.env.local`. In production, set t
 
 `npm run build` produces a static site in `dist/` that works on any static host. No domain is hard-coded.
 
+The live site is deployed on **Vercel**, which rebuilds automatically on every push to `main`.
+
 - **Vercel:** import the repository. Vite is detected automatically, and `vercel.json` sets caching headers.
 - **Netlify:** import the repository. `netlify.toml` contains the build settings.
-- **GitHub Pages:** enable *Settings → Pages → Source: GitHub Actions*. The included workflow builds and deploys on every push to `main` and sets the base path to `/<repo-name>/`. For a `<username>.github.io` repository, change `BASE_PATH` in the workflow to `/`.
+- **GitHub Pages or another sub-path host:** build with `BASE_PATH=/<repo-name>/` so asset URLs resolve correctly.
 
 ## Accessibility and performance
 
